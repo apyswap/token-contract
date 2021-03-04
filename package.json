@@ -1,0 +1,21 @@
+{
+  "name": "apyswap-token-contract",
+  "version": "1.0.0",
+  "description": "APYSwap Token Contract",
+  "repository": "https://github.com/apyswap/token-contract.git",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.4.0",
+    "@truffle/hdwallet-provider": "^1.2.2",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "truffle test"
+  },
+  "author": "",
+  "license": "MIT"
+}
